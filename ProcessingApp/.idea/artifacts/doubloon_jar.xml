@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="1:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/1_jar</output-path>
+  <artifact type="jar" name="doubloon:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/doubloon_jar</output-path>
     <root id="archive" name="1.jar">
       <element id="module-output" name="1.main" />
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.6.3/142ce64dcd709a4b5f6e7d71305a31d3893d077/jackson-core-2.6.3.jar" path-in-jar="/" />
