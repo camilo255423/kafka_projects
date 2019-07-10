@@ -22,7 +22,7 @@ public class Validator implements Producer{
 
     public String validate(JsonNode root, String path){
         if(!root.has(path)){
-            return path + " is missing";
+            return path + " is missing ";
         }
         JsonNode node = root.path(path);
         if(node.isMissingNode()){
@@ -53,7 +53,7 @@ public class Validator implements Producer{
                 messageValue = String.format("{\"error\": %s}", error);
                 topic = this.badTopic;
             } else {
-                messageValue = String.format("{\"error\": %s}", MAPPER.writeValueAsString(root));
+                messageValue = MAPPER.writeValueAsString(root);
                 topic = this.goodTopic;
             }
 
